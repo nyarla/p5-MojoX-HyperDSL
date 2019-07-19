@@ -1,6 +1,6 @@
 # NAME
 
-MojoX::HyperDSL - A DSL for HTML5 as Perl code based on [Mojo::DOM](https://metacpan.org/pod/Mojo::DOM).
+MojoX::HyperDSL - A DSL for HTML5 as Perl code built on [Mojo::DOM](https://metacpan.org/pod/Mojo::DOM).
 
 # SYNOPSIS
 

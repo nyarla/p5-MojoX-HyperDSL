@@ -1,5 +1,5 @@
 {
-   "abstract" : "A DSL for HTML5 as Perl code based on L<Mojo::DOM>.",
+   "abstract" : "A DSL for HTML5 as Perl code built on L<Mojo::DOM>.",
    "author" : [
       "OKAMURA Naoki a.k.a nyarla <nyarla@cpan.org>"
    ],
@@ -61,6 +61,9 @@
    "release_status" : "unstable",
    "version" : "0.01",
    "x_authority" : "cpan:NYARLA",
+   "x_contributors" : [
+      "nyarla <nyarla@thotep.net>"
+   ],
    "x_serialization_backend" : "JSON::PP version 4.02",
    "x_static_install" : 1
 }

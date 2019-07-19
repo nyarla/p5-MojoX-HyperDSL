@@ -269,7 +269,7 @@ __END__
 
 =head1 NAME
 
-MojoX::HyperDSL - A DSL for HTML5 as Perl code based on L<Mojo::DOM>.
+MojoX::HyperDSL - A DSL for HTML5 as Perl code built on L<Mojo::DOM>.
 
 =head1 SYNOPSIS
 
