@@ -1,0 +1,66 @@
+{
+   "abstract" : "A DSL for HTML5 as Perl code based on L<Mojo::DOM>.",
+   "author" : [
+      "OKAMURA Naoki a.k.a nyarla <nyarla@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v3.1.4, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "MojoX-HyperDSL",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author",
+         "builder"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0.035"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Minilla" : "0",
+            "Software::License" : "0",
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion::Fast" : "0.04",
+            "Test::PAUSE::Permissions" : "0.04",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.7"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Exporter::Shiny" : "0",
+            "Exporter::Tiny" : "1.002001",
+            "Mojo::DOM" : "0",
+            "Mojolicious" : "8.22",
+            "perl" : "5.030000"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test2::Bundle::More" : "0",
+            "Test2::Suite" : "0.000122"
+         }
+      }
+   },
+   "release_status" : "unstable",
+   "version" : "0.01",
+   "x_authority" : "cpan:NYARLA",
+   "x_serialization_backend" : "JSON::PP version 4.02",
+   "x_static_install" : 1
+}

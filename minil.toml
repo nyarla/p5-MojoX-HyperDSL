@@ -1,0 +1,17 @@
+name = "MojoX-HyperDSL"
+authority = "cpan:NYARLA"
+license = "perl_5"
+
+readme_from = "lib/MojoX/HyperDSL.pm"
+abstract_from = "lib/MojoX/HyperDSL.pm"
+author_from = "lib/Mojox//HyperDSL.pm"
+
+tag_format = "v%v"
+
+module_maker="ModuleBuildTiny"
+
+static_install = "auto"
+
+[release]
+pause_config = "/home/nyarla/.pause"
+do_not_upload_to_cpan = true
